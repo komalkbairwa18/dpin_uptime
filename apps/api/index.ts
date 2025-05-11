@@ -1,5 +1,6 @@
 import express from "express"
 import { authMiddleware } from "./middleware";
+import { prismaClient } from "../../packages/src/index";
 
 const app = express();
 
